@@ -2196,4 +2196,13 @@ fieldset {
   .usa-accordion-content > *:last-child {
     margin-bottom: 0; }
 
+html {
+  font-size: 50%; }
+  @media screen and (min-width: 481px) {
+    html {
+      font-size: 56.25%; } }
+  @media screen and (min-width: 600px) {
+    html {
+      font-size: 62.5%; } }
+
 /*# sourceMappingURL=all.css.map */
