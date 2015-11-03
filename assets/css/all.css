@@ -2267,6 +2267,9 @@ a {
   height: 100%; }
   #left-nav ul {
     margin: 2em 0 0 1em; }
+  #left-nav li:before {
+    content: "";
+    display: none; }
   #left-nav a {
     color: #d6d7d9;
     padding-right: 1em; }

@@ -80,6 +80,10 @@ a {
 	li {
 
 	}
+	li:before {
+		content: "";
+		display: none;
+	}	
 	a {
 		color: $color-gray-lighter;
 		padding-right: 1em;
