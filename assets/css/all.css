@@ -2273,4 +2273,15 @@ a {
   #left-nav a:focus {
     box-shadow: none; }
 
+.menu-link {
+  position: absolute;
+  top: 15px;
+  left: -50px;
+  height: 35px;
+  width: 35px;
+  background: url(/assets/img/bars.svg) center center no-repeat;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+
 /*# sourceMappingURL=all.css.map */

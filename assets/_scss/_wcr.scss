@@ -88,3 +88,13 @@ a {
 		box-shadow: none;
 	}
 }
+
+.menu-link {
+	position: absolute;
+	top: 15px;
+	left: -50px;
+	height: 35px;
+	width: 35px;
+	background: url(/assets/img/bars.svg) center center no-repeat;
+	@include transition(all 0.5s ease-in-out);
+}
