@@ -2205,4 +2205,19 @@ html {
     html {
       font-size: 62.5%; } }
 
+a {
+  word-wrap: break-word; }
+
+.skip a, .skip a:hover, .skip a:visited, .skip a:active, .skip a:focus {
+  position: absolute;
+  left: 0px;
+  top: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden; }
+.skip a:active, .skip a:focus {
+  position: static;
+  width: auto;
+  height: auto; }
+
 /*# sourceMappingURL=all.css.map */

@@ -7,3 +7,21 @@ html {
       font-size: 62.5%;
     }	
 }
+
+a {
+  word-wrap: break-word;
+}
+
+.skip {
+	a, a:hover, a:visited, a:active, a:focus {
+		position: absolute; 
+		left: 0px; 
+		top: -10000px; 
+		width: 1px; 
+		height: 1px; 
+		overflow: hidden;
+	}
+	a:active, a:focus { 
+		position: static; width: auto; height: auto;
+	}  
+}
