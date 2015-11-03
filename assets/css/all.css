@@ -2239,4 +2239,11 @@ a {
     -o-transform: translateX(-15em);
     transform: translateX(-15em); }
 
+#noaa-navspace {
+  height: 5em;
+  margin: 1em 0;
+  background: url(/assets/img/noaa-wrc-logo.svg) left top no-repeat; }
+  #noaa-navspace img {
+    display: none; }
+
 /*# sourceMappingURL=all.css.map */

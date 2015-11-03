@@ -37,3 +37,12 @@ a {
         @include transform(translateX(-15em));	
     }   
 }
+
+#noaa-navspace {
+	height: 5em;
+	margin: 1em 0;
+	background: url(/assets/img/noaa-wrc-logo.svg) left top no-repeat;
+	img {
+		display: none;
+	}
+}
