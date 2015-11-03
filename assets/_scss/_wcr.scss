@@ -25,3 +25,15 @@ a {
 		position: static; width: auto; height: auto;
 	}  
 }
+
+#maindiv {
+	max-width: 980px;
+	padding: 0 1em;
+	margin: auto;
+		@include transform(translateX(0));	
+        @include transition(all 0.25s ease-in-out);
+
+    &.active {
+        @include transform(translateX(-15em));	
+    }   
+}

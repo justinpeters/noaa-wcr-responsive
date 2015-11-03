@@ -2220,4 +2220,23 @@ a {
   width: auto;
   height: auto; }
 
+#maindiv {
+  max-width: 980px;
+  padding: 0 1em;
+  margin: auto;
+  -webkit-transform: translateX(0);
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -o-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out; }
+  #maindiv.active {
+    -webkit-transform: translateX(-15em);
+    -moz-transform: translateX(-15em);
+    -ms-transform: translateX(-15em);
+    -o-transform: translateX(-15em);
+    transform: translateX(-15em); }
+
 /*# sourceMappingURL=all.css.map */
