@@ -2252,4 +2252,25 @@ a {
 .green_seperator {
   display: none; }
 
+#center img {
+  width: 100%; }
+#center h1 {
+  margin-top: 1em; }
+
+#left-nav {
+  background: #323a45;
+  position: fixed;
+  top: -1em;
+  bottom: 0;
+  width: 15em;
+  right: -15em;
+  height: 100%; }
+  #left-nav ul {
+    margin: 2em 0 0 1em; }
+  #left-nav a {
+    color: #d6d7d9;
+    padding-right: 1em; }
+  #left-nav a:focus {
+    box-shadow: none; }
+
 /*# sourceMappingURL=all.css.map */
