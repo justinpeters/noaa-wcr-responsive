@@ -102,3 +102,10 @@ a {
 	background: url(/assets/img/bars.svg) center center no-repeat;
 	@include transition(all 0.5s ease-in-out);
 }
+
+.left_navigation.active {
+	.menu-link {
+		background: url(/assets/img/close.svg) center center no-repeat;
+		@include transition(all 0.5s ease-in-out);
+	}	
+}
