@@ -2293,4 +2293,62 @@ a {
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out; }
 
+.sidenav {
+  background: #A7DAF5; }
+
+#slide_show {
+  position: relative;
+  border: 1px solid green;
+  height: auto; }
+  #slide_show ul {
+    height: auto;
+    border: 1px solid red;
+    margin: 0;
+    padding: 0; }
+  #slide_show li {
+    position: absolute;
+    top: 0;
+    left: 0; }
+  #slide_show .slider_image {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 1px solid purple;
+    background-size: cover; }
+
+#footer {
+  background-color: #092866;
+  color: #fff;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  #footer:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden; }
+  #footer #footer1 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    #footer #footer1:last-child {
+      margin-right: 0; }
+  #footer #footer2 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    #footer #footer2:last-child {
+      margin-right: 0; }
+  #footer #footer-logos {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    #footer #footer-logos:last-child {
+      margin-right: 0; }
+
 /*# sourceMappingURL=all.css.map */
