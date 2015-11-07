@@ -2238,6 +2238,8 @@ a {
     -ms-transform: translateX(-15em);
     -o-transform: translateX(-15em);
     transform: translateX(-15em); }
+  #maindiv li:before {
+    content: "\00b7"; }
 
 #noaa-navspace {
   height: 5em;
@@ -2295,6 +2297,8 @@ a {
 
 .sidenav {
   background: #A7DAF5; }
+  .sidenav li:before {
+    display: none; }
 
 #slide_show {
   position: relative;
@@ -2350,5 +2354,7 @@ a {
     width: 31.76157%; }
     #footer #footer-logos:last-child {
       margin-right: 0; }
+  #footer li:before {
+    display: none; }
 
 /*# sourceMappingURL=all.css.map */

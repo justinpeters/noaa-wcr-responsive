@@ -36,6 +36,9 @@ a {
     &.active {
         @include transform(translateX(-15em));	
     }   
+    li:before {
+    	content: "\00b7";
+	}
 }
 
 #noaa-navspace {
@@ -112,6 +115,9 @@ a {
 
 .sidenav {
 	background: #A7DAF5;
+	li:before {
+    	display: none;
+	}
 }
 
 #slide_show {
@@ -152,4 +158,7 @@ a {
 	#footer-logos {
 		@include span-columns(4);
 	}
+	li:before {
+    	display: none;
+	}	
 }
