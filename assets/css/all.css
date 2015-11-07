@@ -2240,6 +2240,13 @@ a {
     transform: translateX(-15em); }
   #maindiv li:before {
     content: "\00b7"; }
+  #maindiv #center {
+    /* homepage */ }
+    #maindiv #center #regions,
+    #maindiv #center #latest_news {
+      width: auto !important; }
+    #maindiv #center dd {
+      margin: 0 .25em 1em .25em; }
 
 #noaa-navspace {
   height: 5em;
@@ -2256,6 +2263,8 @@ a {
 
 #center img {
   width: 100%; }
+  #center img#disclaimer {
+    width: auto; }
 #center h1 {
   margin-top: 1em; }
 
