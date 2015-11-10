@@ -48,6 +48,11 @@ a {
 		dd {
 			margin: 0 .25em 1em .25em;
 		}
+		.tabs {
+			li:before {
+				display: none;
+			}	
+		}
 		.tab-content {
 			padding: 0 16px 0 0;
 		}
