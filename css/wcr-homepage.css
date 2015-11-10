@@ -102,10 +102,17 @@
 	height: 174px;
 }				
 				
-#maindiv #center #regions {
-	padding-left: 0 !important;
-	width: 792px !important;
-}				
+
+@media only screen and (min-width: 980px) {
+  #maindiv #center #regions {
+    padding-left: 0 !important;
+    width: 792px !important;
+  } 
+  #maindiv #center .tab .summary {
+    float: left;
+    width: 420px;
+  }   
+}
 
 #maindiv #center ul.tab-links {
 	padding: 0;
@@ -124,10 +131,7 @@
 	padding: 16px 0 16px 20px;
 }
 
-#maindiv #center .tab .summary {
-	float: left;
-	width: 420px;
-}
+
 
 #maindiv #center .tab p {
 	font-size: 14px;

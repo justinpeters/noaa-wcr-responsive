@@ -2247,6 +2247,8 @@ a {
       width: auto !important; }
     #maindiv #center dd {
       margin: 0 .25em 1em .25em; }
+    #maindiv #center .tab-content {
+      padding: 0 16px 0 0; }
 
 #noaa-navspace {
   height: 5em;
