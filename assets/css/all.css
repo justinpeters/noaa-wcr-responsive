@@ -2278,6 +2278,17 @@ a {
   height: 100%; }
   #left-nav ul {
     margin: 2em 0 0 1em; }
+  #left-nav li.cat_title {
+    color: #d6d7d9;
+    padding-top: 2em;
+    text-transform: uppercase; }
+    #left-nav li.cat_title:before {
+      content: "";
+      display: block;
+      margin-bottom: 1em; }
+    #left-nav li.cat_title:after {
+      border-bottom: 1px solid #888;
+      padding: .25em 0 0 0; }
   #left-nav li:before {
     content: "";
     display: none; }

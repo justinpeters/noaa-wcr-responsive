@@ -97,7 +97,20 @@ a {
 		margin: 2em 0 0 1em;	
 	}
 	li {
-
+		&.cat_title {
+			color: $color-gray-lighter;
+			padding-top: 2em;
+			text-transform: uppercase;
+			&:before {
+			    content: "";
+			    display: block;
+			    margin-bottom: 1em;
+			}
+			&:after {
+				border-bottom: 1px solid #888;
+				padding: .25em 0 0 0;
+			}
+		}
 	}
 	li:before {
 		content: "";
