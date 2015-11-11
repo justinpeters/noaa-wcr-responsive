@@ -2244,13 +2244,16 @@ a {
     /* homepage */ }
     #maindiv #center #regions,
     #maindiv #center #latest_news {
-      width: auto !important; }
+      width: auto !important;
+      padding: 0 !important; }
     #maindiv #center dd {
       margin: 0 .25em 1em .25em; }
     #maindiv #center .tabs li:before {
       display: none; }
     #maindiv #center .tab-content {
       padding: 0 16px 0 0; }
+    #maindiv #center .tab-links li {
+      width: 33.3%; }
 
 #noaa-navspace {
   height: 5em;
