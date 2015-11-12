@@ -2242,16 +2242,20 @@ a {
     content: "\00b7"; }
   #maindiv #center {
     /* homepage */ }
-    #maindiv #center #regions,
-    #maindiv #center #latest_news {
+    #maindiv #center #regions {
       width: auto !important;
       padding: 0 !important; }
+    #maindiv #center #latest_news {
+      padding: 0 1em;
+      width: auto !important; }
     #maindiv #center dd {
       margin: 0 .25em 1em .25em; }
     #maindiv #center .tabs li:before {
       display: none; }
     #maindiv #center .tab-content {
       padding: 0 16px 0 0; }
+      #maindiv #center .tab-content .summary {
+        padding: 0 1em; }
     #maindiv #center .tab-links li {
       width: 33.3%; }
 
