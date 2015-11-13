@@ -52,24 +52,28 @@ a {
 		dd {
 			margin: 0 .25em 1em .25em;
 		}
+		#number_menu {
+			display: none;
+		}
 		.tabs {
 			li:before {
 				display: none;
 			}	
 		}
 		.tab-content {
-			padding: 0 16px 0 0;
+			padding: 0;
 			.summary {
 				padding: 0 1em;
 			}
 		}
 		.tab-links {
+			width: 100%;
 			li {
 				width: 33.3%;
 			}
 		}
 		.social-links {
-			
+
 		}
 	}
 	
@@ -173,8 +177,7 @@ a {
 
 #slide_show {
 	position: relative;
-	border: 1px solid green;
-	height: auto;
+	height: 290px;
 	ul {
 		height: auto;
 		border: 1px solid red;
@@ -186,15 +189,26 @@ a {
 		top: 0;
 		left: 0;	
 	}
+	li:before {
+		display: none;
+	}	
 	.slider_image {
-		height: auto;
+		height: 135px;
 		width: 100%;
 		margin: 0;
 		padding: 0;
-		border: 1px solid purple;
-		background-size:   cover;    
+		border: 1px solid #fff;
+		position: relative;
+		background-size:  contain !important;    
 	}
+	p {
+		color: #fff;
+		background: #21497d;
+		padding: 1em 1em;
+		margin-top: 130px;
+	}	
 }
+
 
 #footer {
 	background-color: #092866;

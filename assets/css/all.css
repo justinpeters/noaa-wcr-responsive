@@ -2250,14 +2250,18 @@ a {
       width: auto !important; }
     #maindiv #center dd {
       margin: 0 .25em 1em .25em; }
+    #maindiv #center #number_menu {
+      display: none; }
     #maindiv #center .tabs li:before {
       display: none; }
     #maindiv #center .tab-content {
-      padding: 0 16px 0 0; }
+      padding: 0; }
       #maindiv #center .tab-content .summary {
         padding: 0 1em; }
-    #maindiv #center .tab-links li {
-      width: 33.3%; }
+    #maindiv #center .tab-links {
+      width: 100%; }
+      #maindiv #center .tab-links li {
+        width: 33.3%; }
 
 #noaa-navspace {
   height: 5em;
@@ -2333,8 +2337,7 @@ a {
 
 #slide_show {
   position: relative;
-  border: 1px solid green;
-  height: auto; }
+  height: 290px; }
   #slide_show ul {
     height: auto;
     border: 1px solid red;
@@ -2344,13 +2347,21 @@ a {
     position: absolute;
     top: 0;
     left: 0; }
+  #slide_show li:before {
+    display: none; }
   #slide_show .slider_image {
-    height: auto;
+    height: 135px;
     width: 100%;
     margin: 0;
     padding: 0;
-    border: 1px solid purple;
-    background-size: cover; }
+    border: 1px solid #fff;
+    position: relative;
+    background-size: contain !important; }
+  #slide_show p {
+    color: #fff;
+    background: #21497d;
+    padding: 1em 1em;
+    margin-top: 130px; }
 
 #footer {
   background-color: #092866;
